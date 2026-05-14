@@ -14,19 +14,16 @@
 4. FastAPI calls the Gemini service for explanations or summaries.
 5. FastAPI returns structured results to Streamlit for display.
 
-## Environment variables
-Create a local `.env` file based on `.env.example` and add your API keys.
 
 ## Folder structure
 ```
 WeatherAIPythonEksamen/
 ├── app.py
 ├── api.py
-├── llm_service.py
+├── llm.py
 ├── analytics.py
 ├── tests/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-└── .env.example
 ```
